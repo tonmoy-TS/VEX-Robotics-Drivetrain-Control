@@ -30,7 +30,6 @@ Each file is self-contained and independently deployable to the Cortex.
 VEXProjectCodes/     RobotC source files (see table above)
 Control_Methods.pdf  Control law derivations and method comparison
 Demos/                Photos and footage of the physical robot and autonomous runs
-Docs/                 Reference material on motor characteristics used to derive control constants
 ```
 
 ## Demos
@@ -47,4 +46,11 @@ Reverse autonomous run:
 
 ## References
 
-Motor performance constants (e.g. RPM at a given power level) used in the open-loop model were derived from VEX's official motor documentation and community torque/speed analyses, collected in [Docs/](Docs/).
+Motor performance constants (e.g. RPM at a given power level) used in the open-loop model were derived from the following sources:
+
+- [Unit 7: Speed, Power, Torque & DC Motors — VEX EDR Curriculum](http://curriculum.vexrobotics.com/curriculum/speed-power-torque-and-dc-motors) — official VEX curriculum unit covering DC motor speed/torque/power fundamentals
+- [Motor torque-speed curves — VEX Forum](https://www.vexforum.com/t/motor-torque-speed-curves/21602)
+- [Motor torque-speed curves - REV2 — VEX Forum](https://www.vexforum.com/t/motor-torque-speed-curves-rev2/21868)
+- [Estimating motor current — VEX Forum](https://www.vexforum.com/t/estimating-motor-current/21703)
+- [Weird Acceleration Calculation — VEX Forum](https://www.vexforum.com/t/weird-acceleration-calculation/24231)
+- [Calculating actual speed theoretically — VEX Forum](https://www.vexforum.com/t/calculating-actual-speed-theoretically/27665)
