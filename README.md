@@ -20,17 +20,30 @@ Autonomous motion control for a 4-motor VEX EDR differential-drive robot, implem
 
 Each file is self-contained and independently deployable to the Cortex.
 
+## Documentation
+
+[Control_Methods.pdf](Control_Methods.pdf) — derivation and comparison of all four control laws, including the proportional-control gain equation and behavior at target.
+
 ## Repository structure
 
 ```
-VEXProjectCodes/   RobotC source files (see table above)
-Demos/             Photos and video of the physical robot and autonomous runs
-Docs/              Reference material on motor characteristics used to derive control constants
+VEXProjectCodes/     RobotC source files (see table above)
+Control_Methods.pdf  Control law derivations and method comparison
+Demos/                Photos and footage of the physical robot and autonomous runs
+Docs/                 Reference material on motor characteristics used to derive control constants
 ```
 
 ## Demos
 
-Photos and test-run footage of the physical robot are in [Demos/](Demos/).
+![VEX robot assembly](Demos/VEX_assembly.jpg)
+
+Forward autonomous run (proportional drive):
+
+![Forward motion](Demos/forward_motion.gif)
+
+Reverse autonomous run:
+
+![Reverse motion](Demos/reverse_motion.gif)
 
 ## References
 
