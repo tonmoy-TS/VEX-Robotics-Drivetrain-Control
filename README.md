@@ -24,14 +24,6 @@ Each file is self-contained and independently deployable to the Cortex.
 
 [Control_Methods.pdf](Control_Methods.pdf) — derivation and comparison of all four control laws, including the proportional-control gain equation and behavior at target.
 
-## Repository structure
-
-```
-VEXProjectCodes/     RobotC source files (see table above)
-Control_Methods.pdf  Control law derivations and method comparison
-Demos/                Photos and footage of the physical robot and autonomous runs
-```
-
 ## Demos
 
 ![VEX robot assembly](Demos/VEX_assembly.jpg)
